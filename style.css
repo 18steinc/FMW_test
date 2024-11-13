@@ -56,7 +56,7 @@ h1, h5 {
 
 /* Control the size of the logo image */
 .logo-image {
-  max-width: 100px; /* Adjust the value to your desired size */
+  max-width: 10px; /* Adjust the value to your desired size */
   height: auto; /* Maintain aspect ratio */
   margin-top: 5px; /* Optional: adds spacing from the text */
 }
@@ -65,6 +65,11 @@ h1, h5 {
 h1 {
   color: #E5E5E5; /* Change this to your desired color */
 }
+
+
+
+
+
 
 /* NAVIGATION BAR */ 
 
