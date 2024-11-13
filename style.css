@@ -54,7 +54,7 @@ h1, h5 {
 
 /* Control the size and spacing of the logo image */
 .logo-image {
-  max-width: 500px; /* Adjust this value to control the image size */
+  max-width: 400px; /* Adjust this value to control the image size */
   height: auto; /* Maintain aspect ratio */
   margin-top: 5px; /* Adds spacing from the text */
 }
