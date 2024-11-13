@@ -49,17 +49,14 @@ h1, h5 {
   font-family: 'BukhariScript', sans-serif;
 }
 
-/* Add margin to space out the image from the text */
-.text-center img {
-  margin-top: 5px; /* Adjust the value as needed */
+
+/* Control the size and spacing of the logo image */
+.logo-image {
+  max-width: 100px; /* Adjust this value to control the image size */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Adds spacing from the text */
 }
 
-/* Control the size of the logo image */
-.logo-image {
-  max-width: 10px; /* Adjust the value to your desired size */
-  height: auto; /* Maintain aspect ratio */
-  margin-top: 5px; /* Optional: adds spacing from the text */
-}
 
 /* Color of heading on each page */
 h1 {
