@@ -33,6 +33,10 @@ img {
 h1, h5 {
   text-align: center;
 }
+/* Custom font for the top of page text */
+.top-of-page-text {
+  font-family: 'BukhariScript', sans-serif;
+}
 
 /* Color of heading on each page */
 h1 {
