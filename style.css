@@ -33,10 +33,24 @@ img {
 h1, h5 {
   text-align: center;
 }
+
+
+
+/* Define the custom font */
+@font-face {
+  font-family: 'BukhariScript';
+  src: url('fonts/BukhariScript.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Custom font for the top of page text */
 .top-of-page-text {
   font-family: 'BukhariScript', sans-serif;
 }
+
+
+
 
 /* Color of heading on each page */
 h1 {
