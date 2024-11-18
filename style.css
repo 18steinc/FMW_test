@@ -234,26 +234,30 @@ h1 {
 
 /* Footer Styling */
 .footer {
-  background-color: #001c38; /* Fixing the double hash */
-  padding: 20px;
-  color: #E5E5E5;
+  background-color: #001c38; /* Dark blue background */
+  color: #E5E5E5; /* Light text color */
+  padding: 20px 0; /* Added consistent vertical padding */
+  text-align: center; /* Center-align all footer content */
+  width: 100%; /* Ensure the footer spans the full width */
+  box-sizing: border-box; /* Include padding within the width */
 }
 
 .footer-logo {
-  height: 220px;  /* Adjusted height for the footer logo */
-  margin-bottom: 10px;
+  height: 180px; /* Adjusted height for better proportionality */
+  max-width: 100%; /* Prevent logo from exceeding its container */
+  margin-bottom: 15px; /* Added more spacing below the logo */
 }
 
 .footer p {
-  font-weight: normal; /* Normal font for all <p> elements in the footer */
-  color: #E5E5E5; /* Optional: Change this to your desired color */
+  margin: 5px 0; /* Consistent spacing for paragraphs */
+  font-weight: normal; /* Normal font weight */
+  color: #E5E5E5; /* Ensures consistent text color */
 }
 
 .footer p:last-of-type {
-  font-weight: normal; /* Make the last paragraph (the long message) normal weight */
-  font-size: 0.9em; /* Optional: Adjust the font size to make it more readable */
+  font-size: 0.9em; /* Slightly smaller for long disclaimer text */
+  line-height: 1.4; /* Better readability for long text */
 }
-
 
 
 
