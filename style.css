@@ -236,28 +236,43 @@ h1 {
 .footer {
   background-color: #001c38; /* Dark blue background */
   color: #E5E5E5; /* Light text color */
-  padding: 20px 0; /* Added consistent vertical padding */
+  padding: 20px 0; /* Consistent vertical padding */
   text-align: center; /* Center-align all footer content */
-  width: 100%; /* Ensure the footer spans the full width */
-  box-sizing: border-box; /* Include padding within the width */
+  width: 100%; /* Full-width footer */
+  position: relative; /* Position footer properly */
+  box-sizing: border-box; /* Include padding in dimensions */
 }
 
 .footer-logo {
-  height: 180px; /* Adjusted height for better proportionality */
-  max-width: 100%; /* Prevent logo from exceeding its container */
-  margin-bottom: 15px; /* Added more spacing below the logo */
+  height: 180px; /* Proportional logo height */
+  max-width: 100%; /* Prevent overflow */
+  margin-bottom: 15px; /* Space below logo */
 }
 
 .footer p {
-  margin: 5px 0; /* Consistent spacing for paragraphs */
+  margin: 5px 0; /* Spacing between paragraphs */
   font-weight: normal; /* Normal font weight */
-  color: #E5E5E5; /* Ensures consistent text color */
+  color: #E5E5E5; /* Text color */
 }
 
 .footer p:last-of-type {
-  font-size: 0.9em; /* Slightly smaller for long disclaimer text */
-  line-height: 1.4; /* Better readability for long text */
+  font-size: 0.9em; /* Slightly smaller font size for disclaimer */
+  line-height: 1.5; /* Better readability for long text */
+  margin-top: 15px; /* Space above disclaimer */
 }
 
+/* Ensure footer stays at the bottom of the page */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%; /* Ensures full-page height */
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+main {
+  flex: 1; /* Push footer to the bottom */
+}
